@@ -51,8 +51,8 @@
 
     <TextView
         android:id="@+id/tvOnStart"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="91dp"
+        android:layout_height="29dp"
         android:text="onStart():"
         android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
