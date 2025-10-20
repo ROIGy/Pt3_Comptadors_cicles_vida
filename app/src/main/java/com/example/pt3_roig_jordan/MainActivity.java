@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity {
         // Mostrem un missatge Toast per notificar que l'Activity es destrueix
         Toast.makeText(this, "onDestroy() executat. Total: " + cDestroy, Toast.LENGTH_SHORT).show();
 
-        // També és una bona pràctica registrar-ho a la consola (Logcat)
+        // També és una bona pràctica registrar-ho a la consola
         android.util.Log.d("Lifecycle", "onDestroy() executat. Comptador: " + cDestroy);
     }
 }
